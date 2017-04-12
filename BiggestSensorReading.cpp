@@ -13,7 +13,7 @@ int main(){
     sleep1(0,500000);
     sleep1(0,500000);
   }
-  returnprintf("%d\n",adc_biggestReading);
+  printf("%d\n",adc_biggestReading);
   sleep1(0,500000);
 return 0;
 }
