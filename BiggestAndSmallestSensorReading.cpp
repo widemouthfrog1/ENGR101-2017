@@ -7,7 +7,7 @@ int main(){
   int adc_biggestReading = 0;
   int adc_smallestReading = 10000;
   for (int i = 0; i<1000; i=i+1){
-    adc_reading = read_analog(i);
+    adc_reading = read_analog(0);
   }
   printf("curr. reading is %d\n",adc_reading);
   if (adc_reading > adc_biggestReading){
